@@ -17,5 +17,25 @@ There are some requirements you must fulfill if you want to have o11y:
 # What is ObserQAbility
 ObserQAbility (I would like to short it as oQAy, pronounced as Oh-kiu-ey-ee) is the fusion of two practices, QA and Observability. Which means integrating these practices both ways, o11y techniques inside of QA practices, and QA techniques integrated inside o11y.
 
-- QA inside o11y:
-- o11y inside QA:
+- QA inside o11y: You can add tests, validations, verifications, assertions and all sorts of QA things inside of instrumentations or o11y settings.
+- o11y inside QA: You can add o11y principles to your QA automations obtaining all of its benefits fo quality.
+- Mix it all: of course, the sky is the limit. o11y is a great power to apply in all of your processes!
+
+## Examples
+
+In the examples section you will find a few examples on how could you embrace ObserQAbility.
+
+[To examples](./examples/README.md)
+
+In this section I will list some examples I have thought on how to apply obserQAbility. But again these are no all there is, if you think of other options please let me know.
+
+## What we will need
+
+For these examples I want you to understand the priciples of o11y, so almost everything will be done manually. We could use Agents or Client Libraries (CL) but I prefer to show you the guts and principles so that when you use automated o11y, you know what is happening.
+
+We will use open and free software here!
+- JavaScript to code (mostly cause I like it and I feel it universal)
+- InfluxDB to store data (*PLEASE GET V1.x! AVOID VERSIONS 2 & 3*)
+- Grafana to visualize everything
+- k6 for QA of APIs and some performance
+- Selenium for functional automations

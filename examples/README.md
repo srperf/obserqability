@@ -8,7 +8,7 @@ For these examples I want you to understand the priciples of o11y, so almost eve
 
 We will use open and free software here!
 - JavaScript to code (mostly cause I like it and I feel it universal)
-- InfluxDB to store data (*PLEASE GET V1.x! AVOID VERSIONS 2 & 3*)
+- InfluxDB to store data (**PLEASE GET V1.x! AVOID VERSIONS 2 & 3**)
 - Grafana to visualize everything
 - k6 for QA of APIs and some performance
 - Selenium for functional automations

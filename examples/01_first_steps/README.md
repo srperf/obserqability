@@ -60,7 +60,7 @@ The function recevies:
 
  ## Trying it out
 
- Check and run tryInstrument.js
+ Check and run [tryInstrument.js](./tryInstrument.js)
 
  It just sends a test data which should be received by influx. If the script indicates that the test passed, you can query it at: [http://localhost:8086/query?db=ObserQAbility&pretty=true&q=SELECT * FROM TestMeasure](http://localhost:8086/query?db=ObserQAbility&pretty=true&q=SELECT * FROM TestMeasure)
 
@@ -68,4 +68,3 @@ The function recevies:
 
  In Grafana, you can create a Dashboard and add a visualization that queries as above. Keep it simple as it is just an initiation. We will get more interesting further.
 
- 

@@ -1,0 +1,9 @@
+# npm install output (selenium-webdriver and transitive deps)
+node_modules/
+
+# Keep only the script + README in git; recreate locally with npm init / npm install selenium-webdriver
+package.json
+package-lock.json
+
+# Local npm logs
+npm-debug.log*

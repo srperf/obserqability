@@ -17,6 +17,8 @@ We will use open and free software here!
 
 I have created a few examples of webpages and services that we will be using, together with code which will allow us to instrument oue software. They are also in JavaScript, so you should have Node at hand.
 
+Find it at the [Tested Software section](../testedSW/README.md)
+
 ## Examples
 
 - [First steps](./01_first_steps/README.md)
